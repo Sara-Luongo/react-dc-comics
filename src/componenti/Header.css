@@ -2,7 +2,7 @@
     background-color: white;
 }
 
-.header-section {
+.header-navbar {
     display: flex;
 }
 
@@ -10,6 +10,5 @@
     display: flex;
     list-style: none;
     gap: 15px;
+    color: black;
 }
-
-.header-navbar {}
