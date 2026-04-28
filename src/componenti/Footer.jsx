@@ -1,6 +1,9 @@
+import './Footer.css'
+
 function Footer() {
     return <>
         <footer>
+
             <section>
                 <div>
                     <ul>
@@ -12,6 +15,7 @@ function Footer() {
                     </ul>
                 </div>
             </section>
+
             <section>
                 <div>
                     <h3>DC COMICS</h3>
@@ -24,6 +28,7 @@ function Footer() {
                         <li></li>
                         <li></li>
                     </ul>
+
                     <h3>DC</h3>
                     <ul>
                         <li></li>
@@ -38,6 +43,7 @@ function Footer() {
                         <li></li>
                         <li></li>
                     </ul>
+
                     <h3>SITIES</h3>
                     <ul>
                         <li></li>
@@ -46,6 +52,7 @@ function Footer() {
                         <li></li>
                         <li></li>
                     </ul>
+
                     <h3>SHOP</h3>
                     <ul>
                         <li></li>
@@ -53,21 +60,21 @@ function Footer() {
                     </ul>
                 </div>
             </section>
-            <div>
-                <button>SING-UP NOW!</button>
-            </div>
-            <div>
-                <h3>FOLLOW US</h3>
-                <ul>
-                    <li><img src="public/img/footer-facebook.png" alt="" /></li>
-                    <li><img src="public/img/footer-periscope.png" alt="" /></li>
-                    <li><img src="public/img/footer-pinterest.png" alt="" /></li>
-                    <li><img src="public/img/footer-twitter.png" alt="" /></li>
-                    <li><img src="public/img/footer-youtube.png" alt="" /></li>
-                </ul>
-            </div>
-            <section>
 
+            <section>
+                <div>
+                    <button>SING-UP NOW!</button>
+                </div>
+                <div>
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li><img src="public/img/footer-facebook.png" alt="" /></li>
+                        <li><img src="public/img/footer-periscope.png" alt="" /></li>
+                        <li><img src="public/img/footer-pinterest.png" alt="" /></li>
+                        <li><img src="public/img/footer-twitter.png" alt="" /></li>
+                        <li><img src="public/img/footer-youtube.png" alt="" /></li>
+                    </ul>
+                </div>
             </section>
         </footer>
     </>

@@ -1,0 +1,15 @@
+.header {
+    background-color: white;
+}
+
+.header-section {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.header-navbar {}

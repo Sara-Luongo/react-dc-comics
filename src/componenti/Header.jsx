@@ -1,25 +1,27 @@
+import './Header.css'
+
+const navMenuItems = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP']
+
+const menuItems = navMenuItems.map((items, index) => {
+    return (<li key={index}>
+        <a
+            href="#">{items}
+        </a>
+    </li>)
+})
+
 function Header() {
     return (
-        <header>
-            <section>
-                <div>
+        <header className='header' >
+            <nav className='header-navbar'>
+                <a href='#'>
                     <img src="/img/dc-logo.png" alt="logo della DC" />
-                </div>
-                <nav>
-                    <ul>
-                        <li>CHARACTERS</li>
-                        <li>COMICS</li>
-                        <li>MOVIES</li>
-                        <li>TV</li>
-                        <li>GAMES</li>
-                        <li>COLLECTIBLES</li>
-                        <li>VIDEOS</li>
-                        <li>FANS</li>
-                        <li>NEWS</li>
-                        <li>SHOP</li>
-                    </ul>
-                </nav>
-            </section>
+                </a>
+
+                <ul className='header-list'>
+                    {menuItems}
+                </ul>
+            </nav>
         </header>
     )
 }
