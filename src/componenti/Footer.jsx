@@ -18,18 +18,18 @@ function Footer() {
                 <FooterLinks />
             </section>
 
-            <section>
+            <section className='section-footer-social'>
                 <div>
-                    <button>SING-UP NOW!</button>
+                    <button className='botton-social'>SING-UP NOW!</button>
                 </div>
-                <div>
+                <div className='footer-icon-social'>
                     <h3>FOLLOW US</h3>
                     <ul>
-                        <li><img src="public/img/footer-facebook.png" alt="" /></li>
-                        <li><img src="public/img/footer-periscope.png" alt="" /></li>
-                        <li><img src="public/img/footer-pinterest.png" alt="" /></li>
-                        <li><img src="public/img/footer-twitter.png" alt="" /></li>
-                        <li><img src="public/img/footer-youtube.png" alt="" /></li>
+                        <li><img src="/img/footer-facebook.png" alt="" /></li>
+                        <li><img src="/img/footer-periscope.png" alt="" /></li>
+                        <li><img src="/img/footer-pinterest.png" alt="" /></li>
+                        <li><img src="/img/footer-twitter.png" alt="" /></li>
+                        <li><img src="/img/footer-youtube.png" alt="" /></li>
                     </ul>
                 </div>
             </section>
