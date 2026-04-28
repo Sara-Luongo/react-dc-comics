@@ -50,16 +50,14 @@ function Header() {
     return (
         <header className='header'>
             <nav className='header-navbar'>
-                <div>
-                    <a href='#'>
-                        <img src="/img/dc-logo.png" alt="logo della DC" />
-                    </a>
-                </div>
-                <div>
-                    <ul className='header-list'>
-                        {menuItems}
-                    </ul>
-                </div>
+                <a href='#'>
+                    <img src="/img/dc-logo.png" alt="logo della DC" />
+                </a>
+
+                <ul className='header-list'>
+                    {menuItems}
+                </ul>
+
             </nav>
         </header>
     )

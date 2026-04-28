@@ -1,64 +1,21 @@
 import './Footer.css'
-
+import FooterLinks from "./Footer-links.jsx"
 function Footer() {
     return <>
-        <footer>
+        <footer className='footer'>
 
-            <section>
-                <div>
-                    <ul>
-                        <li><img src="/img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</li>
-                        <li><img src="/img/buy-comics-merchandise.png" alt="" />DC MERCHANDISE</li>
-                        <li><img src="/img/buy-comics-shop-locator.png" alt="" />SUBSCRIPTION</li>
-                        <li><img src="/img/buy-comics-subscriptions.png" alt="" />COMIC SHOP LOCATOR</li>
-                        <li><img src="/img/buy-dc-power-visa.svg" alt="" />DC POWER VISA</li>
-                    </ul>
-                </div>
+            <section className='section-items'>
+                <ul className='list-items'>
+                    <li><img src="/img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</li>
+                    <li><img src="/img/buy-comics-merchandise.png" alt="" />DC MERCHANDISE</li>
+                    <li><img src="/img/buy-comics-shop-locator.png" alt="" />SUBSCRIPTION</li>
+                    <li><img src="/img/buy-comics-subscriptions.png" alt="" />COMIC SHOP LOCATOR</li>
+                    <li><img src="/img/buy-dc-power-visa.svg" alt="" />DC POWER VISA</li>
+                </ul>
             </section>
 
-            <section>
-                <div>
-                    <h3>DC COMICS</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
-                    <h3>DC</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
-                    <h3>SITIES</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
-                    <h3>SHOP</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+            <section className='section-footer-links'>
+                <FooterLinks />
             </section>
 
             <section>
@@ -76,7 +33,7 @@ function Footer() {
                     </ul>
                 </div>
             </section>
-        </footer>
+        </footer >
     </>
 
 }
