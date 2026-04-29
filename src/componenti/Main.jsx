@@ -1,10 +1,11 @@
 import './Main.css'
+import MainCard from './Main-cards';
 
 function Main() {
     return (
         <main>
             <section>
-                <h1>content goes here</h1>
+                <MainCard />
             </section>
         </main>
     )
