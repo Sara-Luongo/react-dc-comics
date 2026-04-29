@@ -1,0 +1,43 @@
+/*banner main*/
+.container-banner-main {
+    background-image: url(/img/jumbotron.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+/*immagini cards section*/
+.main-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 25px;
+    justify-content: center;
+}
+
+/*div container card*/
+.card-container {
+    flex-basis: calc((100% / 6) - (25px * 5 / 6));
+    padding-top: 40px;
+}
+
+/*div che contiene immagini*/
+.container-img-main {
+    height: 200px;
+
+}
+
+.container-img-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.bottone-main {
+    background-color: blue;
+    padding: 4px 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-style: none;
+    color: white;
+}

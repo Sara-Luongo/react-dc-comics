@@ -19,10 +19,17 @@
 }
 
 /*sezione 2 dei links*/
+.container-img-footer {
+    background-image: url(/img/dc-logo-bg.png);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .section-footer-links {
     display: flex;
     justify-content: space-around;
-    background-image: url(/public/img/footer-bg.jpg);
+    background-image: url(/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 

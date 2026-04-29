@@ -3,7 +3,6 @@ import FooterLinks from "./Footer-links.jsx"
 function Footer() {
     return <>
         <footer className='footer'>
-
             <section className='section-items'>
                 <ul className='list-items'>
                     <li><img src="/img/buy-comics-digital-comics.png" alt="" />DIGITAL COMICS</li>
@@ -13,11 +12,9 @@ function Footer() {
                     <li><img src="/img/buy-dc-power-visa.svg" alt="" />DC POWER VISA</li>
                 </ul>
             </section>
-
             <section className='section-footer-links'>
                 <FooterLinks />
             </section>
-
             <section className='section-footer-social'>
                 <div>
                     <button className='botton-social'>SING-UP NOW!</button>

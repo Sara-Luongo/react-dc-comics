@@ -4,9 +4,10 @@ import MainCard from './Main-cards';
 function Main() {
     return (
         <main>
-            <section>
-                <MainCard />
-            </section>
+            <div className='container-banner-main'>
+            </div>
+
+            <MainCard />
         </main>
     )
 }

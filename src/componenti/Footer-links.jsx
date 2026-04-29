@@ -51,9 +51,8 @@ function FooterLinks() {
                 </ul>
             </div>
         </div>
-        <div className='container-img-footer'>
-            <img src="/img/dc-logo-bg.png" alt="logo della DC" />
-        </div>
+
+        <div className='container-img-footer'></div>
     </>
 }
 export default FooterLinks;

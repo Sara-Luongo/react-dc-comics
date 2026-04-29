@@ -22,3 +22,46 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.container-banner-main img {
+    width: 50%;
+}
+
+/*immagini cards section*/
+.main-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+/*div container card*/
+.card-container {
+    flex-basis: calc((100% / 6) - (10px * 5 / 6));
+
+}
+
+/*div che contiene immagini*/
+.container-img-main {
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+
+.container-img-main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.bottone-main {
+    background-color: blue;
+    padding: 4px 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-style: none;
+    color: white;
+}
